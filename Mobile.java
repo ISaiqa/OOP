@@ -6,6 +6,11 @@ public class Mobile {
             this.screenSize="null";
             this.color="null";
         }
+        Mobile(String c,String ss)
+        {
+            this.screenSize=ss;
+            this.color=c;
+         }
     
         public void setScreenSize(String screenSize) {
             this.screenSize = screenSize;

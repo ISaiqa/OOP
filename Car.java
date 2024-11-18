@@ -8,6 +8,11 @@ public class Car {
             this.car_no="null";
             this.make="null";
         }
+        Car(String num,String m)
+        {
+            this.car_no=num;
+            this.make=m;
+        }
         public String getCar_no() {
             return car_no;
         }
